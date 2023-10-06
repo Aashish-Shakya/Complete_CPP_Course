@@ -1,0 +1,34 @@
+Algorithm ->
+Performance proportional to  1. Speed
+                             2. Correctness
+
+## Time and Space Complexities
+
+Complexity - Is a fn describing the efficiency of the algo in terms of the amount of data the algo must process.
+
+1. Time Complexity -> Fn describing the amount of time an algo takes in terms of the amount of inpput to the algo.
+
+
+
+
+    ## Asymptotic Analysis 
+    Evaluating the performance of an algo in terms of input size.
+
+
+    ***Asymptotic Notation
+    The time required by an algo falls under threee types ->
+
+    1. Best Case -> Min. time -> Noted by  Ω - Lower Bound
+    2. Average Case -> Avg. time -> Noted by θ - Exact Bound
+    3. Worst Case -> Max time -> Noted by O - Upper Bound
+
+
+2. Space Complexity -> Fn describing the amount of memeory[space] an algo takes in terms of the amount of inpput to the algo.
+
+
+ Space Complexity = Auxiiary Space + Input space
+
+ Memory Used by -
+ 1. Variables
+ 2. Instruction of program
+ 3, Execution pf program

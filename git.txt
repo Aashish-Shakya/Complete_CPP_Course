@@ -1,0 +1,83 @@
+WHy Git?
+To oorganize the file/folder which we are using in an effective mannner.
+
+# Histroy of Git?
+
+Local VCS -> 
+Db to keep track of all files withm in local computer
+
+--> What is computer got crashed
+No backup everything got lost.
+
+Centralized VCS ->
+Created a server and push the files on hit whenever required by anyone just pull it.
+
+--> What if Server got destroyed
+We can't rollback the changes now
+
+Distrubuted VCS -> Git uses this tech.
+Same as centralised just the difference is everyone has full backup in their computer  which is on server.
+
+If serber destroyed - We can create new and upload everything their.
+
+# What is Git ?
+It is a version control system
+
+Github/Bitbukect/Gitlab - Are the websites which host Git repo.
+
+.git folder - contains every version history and it is hidden
+# Commands
+
+git config --global user.name = "",
+git config --global user.email = "",
+git init --> To initialize the repo.
+git status --> To check the changes in the files
+git clone --> to clone a remote repo.
+git clone link repo_name -> To chnage the name of clone repo
+
+
+git add file name -> To send the file in staging state [changes saved] of a specific file
+git add --a -> To saved the changes in whole project
+git add . --> To saved the changes in whole project
+git commit -m --> To commit the changs with a message.
+
+git diff - Compare working directory with stagging one.
+git diff --stagged - Compare wlast commit with stagging one.
+
+git commit -a -m --> It skip the untrack files and commit only tracked files [Use this command to skip stagging ]
+
+git rm file name --> This will delete the file and also stagged by itself.
+rm -rf .git -- to delete a git repo
+
+git mv old_name new_name --> This will change the name of file and move it to stagged state in one go
+
+git rm --cached -> Forcefully/Explicitly stops tracking any files
+
+git log -> To track the commit Histroy
+git log -p -> Will also show the changes with commit history
+git log -p 2/or anynumber -> Will show only 2 commit with changes
+git log --stat -> will give short summary for every commit 
+git log --pretty = oneline -> Will show one commit details in one line
+git log --pretty = short -> Will show   commit in short  
+git log --pretty = full -> Will show   commit in detail  
+git log --pretty = format:"%h -- %an" -> Will show one commit in formated way 
+git log --since=2.days -> Will give commit history of two days
+
+git commit --amend -> Will use to change any commit -> open any vim editor to do the changes
+
+git restore --stages file_name --> to unstage any file
+git checkout -- file_name -> to undo the modification of a file
+
+git checkout -f -> to undo the all modification
+
+
+git remote 
+
+
+
+
+# File Status Lifecycle
+Untracked --> Unmodified --> Modified --> Staged
+
+#.gitingnore
+If we want to ignore any file/folder for stagging then we can add it in .gitignore file

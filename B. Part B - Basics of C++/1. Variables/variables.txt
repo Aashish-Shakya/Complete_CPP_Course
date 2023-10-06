@@ -1,0 +1,55 @@
+VARIABLE
+--> Is a name given to a memory location which can hold some data in it
+
+
+# Variable - Is a term user for the name given to any value in C++.
+* Basic Unit of Storeage
+* Name of memory location
+* Value can be changed during execution
+* All variables must be declared before use
+
+# SYNTAX 
+TYPE variable_name [=value];
+
+# Variable Declaration - giving type and name
+ 
+ int a;
+ int a,b;
+ 
+
+# Variable Definition - assigned to value
+
+a = 5;
+int a =10;
+
+
+#  RULES
+        1. Contain lteers, digits, and underscore only
+        2. Must begin with a ltter or underscore 
+        3. Case Sensitive
+        4. Can't contain whitespace or special character
+        5. Reserved words can't be used as names
+ 
+
+Types of Variable based on Scope ->
+
+1. Local Variabales
+Scope is limited within the method or block
+
+
+2. Global Variable
+Scope is throughout the program
+
+
+ 
+# Comments
+ 
+/*
+Comment block explanning fn/code
+Its ignored by compiler
+
+// -- Single line comment
+Multiline comment ---> /* */ 
+
+
+Identifers - Are the name o fany class, variable, methods..

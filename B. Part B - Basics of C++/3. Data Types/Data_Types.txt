@@ -1,0 +1,79 @@
+
+/*
+1BYTE == 8 BITS
+Bit is the smallest unit of storage.
+
+1 BYTE = 8 BITS
+ 
+DATA TYPES
+--> It defines the type of data a variable can store, how much space it will occupy and what operation can be performed on it.
+
+TYPES 
+    1. Primitive Data types 
+    2. Derived Data Types  
+    3. User Defined Data Tyeps  
+  
+
+1. PRIMITIVE DATA TYPES
+--> INBUILT/by default provided by the compiler
+
+    1. Integer
+        keyword -> int
+        requires 4 byte of space
+        range -> -2147483648 to 2147483647  OR -2^31 TO 2^31 -1
+            A. LONG --> 8 Bytes
+            B. SHORT 2 Bytes
+
+    2. Character
+        keyword -> char
+        requires 1 byte of space
+        range -> -128 to 127 [signed char] or 0 to 255 [unsigned  char]
+
+    3. Boolean
+        keyword -> bool
+        Stores either 0[false] or 1[true]
+        requires 1 byte of space
+         
+
+    4. Floating point -  
+        keyword -> float
+        requires 4 byte of space
+        Store decimal points UPTO 7 DIGIT
+         
+    5. Double Floating point
+        keyword -> double
+        requires 8 byte of space
+        Store double precision floating values UPTO 15 DIGIT
+
+    6 Void
+        keyword -> void
+        Has no value
+
+
+2. DERIVED DATA TYPES
+ --> Extension of certains data types  to achieve certain functionality
+
+    1. Array     -> Used for storing homogenous data contiguously
+    2. Pointer   -> used to store the address of a memeory location
+    3. Reference -> used as a reference variable
+
+
+3. User Defined/Abstract Data Types
+
+    1. Classes -> Building block of oop
+    -> Used for combining together hetrogenous data values and certain operations that can be performed on those values
+    2. Structures and Unions -> Used for storing hetrogenou data together
+    3. Enum -> Allows a variable to holds value from a given list of permitted values
+    4. Typedef -> Allows for providing meaningful names for data types
+*/
+
+
+/*
+Data type Modifiers - use with primitve data type to modify the length of data
+
+1. Signed ->, int, char
+2. Unsigned -> int, char
+3. Long -> int, double
+4. Short -> int
+
+*/

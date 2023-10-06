@@ -1,0 +1,253 @@
+
+// Operators - A symbol which tells compiler what type of manipulatiion we want to perform
+
+// Operands - An input to  a operator
+
+
+//  Arity - How many operands an operator -> Unary, binary..
+
+
+// Types of Operators
+
+/*
+1. ARITHMETIC OPERATORS
+
+    + -> Additon
+    - -> SUbtraction
+    * -> Multiplication
+    / -> Division -> Gives Quoitent
+    % -> Modulo -> Gives Remainder - Only works on integers
+   
+*/
+
+/*
+// Examples ->
+
+    cout << a+b << endl;
+    cout << a-b << endl;
+    cout << a*b << endl;
+    cout << a/b << endl;
+    cout << a%b << endl;
+
+
+// During Modulo operation, the sign of the left operand will be the sign of the output/remainder
+    cout << a%b << endl;
+    cout << (-a%b) << endl;
+    cout << (a%-b) << endl;
+    cout << (-a%-b) << endl;
+*/
+
+/*
+2. LOGICAL OPERATORS - allows us to do logical operarions
+
+<  -> Greater Than 
+>  -> Less Than
+<= -> Greater than equals to
+>= -> Less than equals to
+==  -> Equals to
+!= -> Not equals to
+
+*/
+
+/*
+// a= 21, b= 12
+//  1 = True , 0 = False
+// Example -->
+
+    cout << ( a<b ) << endl;
+    cout << ( a>b ) << endl;
+    cout << ( a<=b) << endl;
+    cout << ( a>=b) << endl;
+    cout << ( a==b) << endl;
+    cout << ( a!=b) << endl;
+
+    if( a>b ) 
+    {
+        cout<< "A is greater" << endl;
+    } else{
+        cout<< "B is greater" << endl;
+
+    }
+
+*/
+
+/*
+3. RELATIONAL OPERATORS --> Allow us to combine one or more logical operators or conditions
+
+
+    && - AND --> TT= T, FF = F, TF,FT = F
+    || - OR --> TT= T, FF = F, TF,FT = T
+    ! - NOT --> T = F, F = T
+
+*/
+
+/*
+Examples -->
+
+    if( a<b && b != 0 ) {
+        cout<< "Result 1 -> TRUE" << endl;
+    } else{
+        cout<< "Result 2 -> FALSE" << endl;
+    }
+//in this case first statment is false hence it wil not evaluate 2nd statment directly gotes to else block
+    if( a<b && ( b = 0 )) {
+        cout<< "Result 1 -> TRUE" << endl;
+    } else{
+        cout<< b << endl;
+    }
+
+
+    if( a>b || b == 0 ) {
+        cout<< "Result 1 -> TRUE" << endl;
+    } else{
+        cout<< "Result 2 -> FALSE" << endl;
+    }
+*/
+
+/*
+Not able to understand this properly have to learn it more deeply
+4. BITWISE OPERATOR -> same as logical operator but it works on individual bits
+
+    &  ->  AND
+    |  -> OR
+    ^  -> XOR
+    ~  -> negation
+    << -> left shift --> Shift all bits to left
+    If we do left shift by 1 bit then number get muktipled by 2 and if by 2 bit then it multiply by 2^ 2
+    4 << --> 8
+    0010 << 1 --> 0100 
+
+    0010 << 2 --> 
+    4 << --> 16
+
+    >> -> right shift -->Shift all bits to right
+
+     If we do right shift by 1 bit then number get divide  by 2 and if by 2 bit then divides it bcms 2^ 2
+     4 >> 1 --> 2
+    0010 >> 1 --> 0001
+
+
+To predict output of left and right shift
+a<<n --> a*2^n
+a>>n --> a/2^n
+*/
+/*
+// Example --> 
+
+    cout << ( 2 & 1 ) << endl;
+    cout << ( 2 | 1 ) << endl;
+    cout << ( 2 ^ 1 ) << endl;
+    cout << ( 4 >> 1 ) << endl;
+    cout << ( 2 << 1 ) << endl;
+    cout << ( ~4 ) << endl;
+     
+*/
+
+/*
+// 5. Ternary Operator = ?: -->
+// condition? expresseion 1( if true):espression 2
+
+    int c;
+    if(a>b){
+        c = a;
+    }else{
+        c = b;
+    }
+
+//In this above loop we are storing the largest number in C
+// We can see that just fro a small task we wrote more than 5 lines of code
+//So to resolve this we can use ternary operator
+
+    c =  ( a>b ) ? a : b;
+*/
+
+/*
+ 6. Unary Operator --> Works only on one operand
+
+    ++ --> Increment
+    -- --> Decreement
+
+Pre -> increment/decrement value instantly
+Post -> Current value gets preserved temporiairly and will get increment/decrement before next statement is executed
+*/
+/* 
+
+    a = 1;
+    int c = a++; // Post increement
+// first assign a value to c and then do increement
+    cout << c << endl ; // c= 1
+    cout << a << endl ; // a = 2
+    a = 1;
+    c = ++a; // Pre increment
+// First increase the value then assign it to c
+     cout << c << endl ; // c= 2
+     cout << a << endl ; // a = 2
+
+*/
+
+/* 
+      a = 1;
+    int c = a--; // Post Decreement
+// first assign a value to c and then do Decreement
+    cout << c << endl ; // c= 1
+    cout << a << endl ; // a = 0
+    a = 1;
+    c = --a; // Pre Decreement
+// First Decrease the value then assign it to c
+     cout << c << endl ; // c= 0
+     cout << a << endl ; // a = 0
+
+*/
+
+/*
+//Shortcut assignment operators
+    += 
+    -=
+    *=
+    etc
+
+
+    c = c+a; // is same as c += a
+    c += a; // is same as c = c+a
+    c -= a;// is same as c = c-a
+    c *= a;// is same as c = c*a
+    c /= a;// is same as c = c/a
+    
+*/
+/*
+// Other Operators
+    1. sizeof - size in bytes occupied by variable
+    2. new - allocate space to vaiable
+    3. delete - free that allocataed space
+    4. & (address of operator) - return address of stored variable
+    5. *(derefrencing operator) - return value stored at that address
+    6. ? - Conditional Operator
+    7. Comma Operator (,) -> Acts as both operator and separator
+    --> 
+    .
+    Cast  - convert one data type to other
+*/
+/*
+    char ch = 'a';
+    //Cast
+    int (ch) ; -- will given 97
+// This topic is not clear yet
+    cout << sizeof(a) << endl;
+
+    int *ptr = new int (10);
+    // delete ptr;
+    cout << ptr << endl;
+    ptr = &a;
+     cout << a << endl;
+    b = *ptr;
+     cout << b << endl;
+
+
+     
+    
+*/
+    
+floor(a) --> Largest integer <= a 
+ceil(a) --> Smallet integer >= a 
+
+//Operator Precedance Chart
