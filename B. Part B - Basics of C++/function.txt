@@ -1,0 +1,123 @@
+/*
+Function --> Are block of code that are designed to perform a specific task.
+* Is to promote modularity and Reusability of code
+input - Parameters
+
+SYNTAX ->
+
+returnType functionName(dataType parameter1, datatype parameter2, ....){
+    // function body
+
+    return value;
+}
+
+
+Why are Fn important in c++ ?
+* Increase reusability of code
+* DRY principle -> Don't repeat yourself
+* Easy to read
+
+
+# Keywords
+1. Function names
+2. Return Type
+3. Parameters
+This will allow to make fn with same name but different types or numbers of parameters
+4. Formal and Actual Parameter
+5. Function Body 
+
+
+Types of Fn
+1. User-Defined Fn
+2. Standard Libarary Fn
+
+
+
+1. User-Defined Fn
+
+SYNTAX ->
+
+returnType functionName(parameter1, parameter2, ....){
+    // function body
+
+    return value;
+}
+
+
+2. Standard Libarary Fn
+1. pow(a,b) - present in cmath header file
+2. sqrt(a) - present in cmath header file
+
+
+
+
+Call a Function -
+
+To call you have to write the fn name followed by (); and always declare fn above main
+
+
+Note --> We can't store a viod fn in any variable
+
+Function Prototype
+If we want to define a function after the function call, We need to use the  fn prototype.
+
+ex -
+type add(paramemeter 1, ...); --> Prototype
+int main(){
+    defination of add fn
+}
+
+
+# Pass By Value
+Parameter values are copied to another variables
+
+voide changeValue(int z){
+    z=100; // Formal Parameetr
+}
+int main(){
+    int a=5;
+    changeValue(a);  // Actual Parameter
+    cout << a;
+}
+
+// The output of this code in 5
+
+# Pass By reference 
+Parameter values are passed itself
+Using Ampersand Operator
+
+
+int p = 5;
+int &q =5; 
+//Both variable refer to same memeory location.
+& - operator create alias name of a variable memory location
+----------------------------
+voide changeValue(int &z){
+    z=100; // Formal Parameetr
+}
+int main(){
+    int a=5;
+    changeValue(a);  // Actual Parameter
+    cout << a;
+}
+
+// The output of this code in 100
+
+
+
+
+# Default Parameter ValueIt is a value in the fn declaration automatically assigned by the comiler if the calling fn does not pass any value to that argument.
+
+int add(inta, int b=1, int c=2){
+    return (a+b+c);
+
+
+}
+int main(){
+    cout<< add(2)<<endl; O/P -- 5
+    cout<< add(2,2)<<endl; O/P -- 6
+    cout<< add(2,2,3)<<endl; O/P -- 7
+}
+
+
+*/

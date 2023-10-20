@@ -2,11 +2,11 @@
 using namespace std;
 
 /*
-Have to check again
-   *  
-  * *        
+Question - Print the Triangle/Half Pyramid pattern using loops and take input from user
+ *  
+ * *        
  * * *        
-* * * * 
+ * * * * 
 
 n = 4
 
@@ -20,15 +20,13 @@ int main()
 
     for (int i = 1; i <= n; i++)
     {
-        for(int j=1; j<=n-i; j++){
-            cout << " ";
-        }
         
-        for(int k=1; k<=i; k++){
-            cout << "* ";
+        for(int j = 1; j <= i; j++){
+            cout << " * ";
         }
-        cout << endl;
+
+        cout << "\n";
     }
-        
+
     return 0;
 }

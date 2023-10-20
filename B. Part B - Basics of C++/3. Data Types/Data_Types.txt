@@ -3,7 +3,7 @@
 1BYTE == 8 BITS
 Bit is the smallest unit of storage.
 
-1 BYTE = 8 BITS
+1 BYTE = 8 BITS4
  
 DATA TYPES
 --> It defines the type of data a variable can store, how much space it will occupy and what operation can be performed on it.

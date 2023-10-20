@@ -31,6 +31,8 @@ int a =10;
         5. Reserved words can't be used as names
  
 
+Scope - Part of the program from where a variable is accessible
+
 Types of Variable based on Scope ->
 
 1. Local Variabales
@@ -40,8 +42,11 @@ Scope is limited within the method or block
 2. Global Variable
 Scope is throughout the program
 
-
+** Precedance -> Local >> Global
  
+Scope Resilution Operator - ::
+::variableName -> To access global over local variable
+
 # Comments
  
 /*

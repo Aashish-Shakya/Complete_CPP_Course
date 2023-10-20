@@ -1,16 +1,6 @@
 #include <iostream>
 using namespace std;
-/*
-Function --> Are block of code that are designed to perform a specific task.
-* Is to promote modularity and Reusability of code
 
-SYNTAX ->
-
-returnType functionName(parameter1, parameter2, ....){
-    // function body
-}
-
-*/
  
 //1. function declaration : return_type functionName(formal parameters);
 void greeting();
