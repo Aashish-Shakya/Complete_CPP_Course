@@ -1,6 +1,4 @@
 # Course Structure 
 
 
-
-
-DSA
+Just testing botj hahah
