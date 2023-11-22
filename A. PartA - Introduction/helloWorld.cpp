@@ -1,7 +1,6 @@
 /*
 DOCUMENTION ABOUT THE PROGRAM/FILE
 */
-
 #include <iostream>  
 #define VAR 10
 using namespace std;
@@ -19,6 +18,8 @@ int main() {
     // Block of Statement
     // std::cout << greeting << endl;
     // To avoid above line we have to import std as written in line 8.
-    cout << greeting << endl;
+    cout << greeting 
+    << endl;
+    cout<< "Ajhgdsh";
     return 0;
 }

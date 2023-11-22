@@ -2,14 +2,13 @@
 using namespace std;
 
 /*
-Question -   HALF PYRAMID PATTERN   ROTATION
-            * 
-            * *
-            * * *
-            * * * *
-            * * * * *
+Question -   HALF PYRAMID PATTERN  uing numbers
+            1
+            2 2
+            3 3 3
+            4 4 4 4
+            5 5 5 5 5
             
-
 n = 5
 */
 
@@ -20,7 +19,7 @@ int main(){
    
     for(int i =1; i<=n;i++){
         for(int j=1; j<=i ; j++){
-            cout << " * ";
+            cout << i <<" "  ;
         }
         cout << endl;
     }

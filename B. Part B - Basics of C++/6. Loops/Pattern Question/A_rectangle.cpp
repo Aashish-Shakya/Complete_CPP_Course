@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-/*
+/* SOLID RECTANGLE
 Question - Print the following pattern using loops and take input of Rows and Columns from user
         * * * *
         * * * *

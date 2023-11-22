@@ -2,7 +2,7 @@
 using namespace std;
 
 /*
-Question - Print the Triangle/Half Pyramid pattern using loops and take input from user
+Question - Print the right angle Triangle/Half Pyramid pattern using loops and take input from user
  *  
  * *        
  * * *        

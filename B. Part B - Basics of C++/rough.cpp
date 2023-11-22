@@ -1,34 +1,44 @@
 #include <iostream>
 using namespace std;
 
-/*
-Have to check again
-   *  
-  * *        
- * * *        
-* * * * 
-
-n = 4
-
-*/
 int main()
 {
-    int n;
-    cout << "Enter number" << endl;
-    cin >> n;
-     
+    int n, m;
 
-    for (int i = 1; i <= n; i++)
+    cout << "Enter the number  " << endl;
+
+    cin >> n ;
+ 
+ 
+    for (int i = 1; i <=n ; i++)
     {
-        for(int j=1; j<=n-i; j++){
-            cout << " ";
+        for (int j = 1; j <= n-i; j++)
+        {
+            cout <<" ";
         }
-        
-        for(int k=1; k<=i; k++){
-            cout << "* ";
+    
+        for (int j = i; j >= 1; j--)
+        {
+            cout <<j;
+        }
+        for (int j = 2; j <= i; j++)
+        {
+            cout <<j;
         }
         cout << endl;
     }
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
     return 0;
 }
