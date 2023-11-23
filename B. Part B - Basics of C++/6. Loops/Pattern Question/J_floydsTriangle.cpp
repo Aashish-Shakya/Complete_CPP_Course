@@ -11,7 +11,7 @@ Question -   FLOYD'S TRIANGLE PATTERN
 
 n = 5
 */
-// Logic ni bna paya tha mai count wala
+
 int main()
 {
     int n, count;
