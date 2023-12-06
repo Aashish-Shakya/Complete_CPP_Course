@@ -250,4 +250,16 @@ Post -> Current value gets preserved temporiairly and will get increment/decreme
 floor(a) --> Largest integer <= a 
 ceil(a) --> Smallet integer >= a 
 
+
+:: - Scope resolution operator - Used to access global varibale inside a block
+int a =10
+int main(){
+    int a=5;
+     
+    cout << a; -> o/p -> 5
+    cout << ::a; -> o/p -> 10
+}
+
 //Operator Precedance Chart
+
+

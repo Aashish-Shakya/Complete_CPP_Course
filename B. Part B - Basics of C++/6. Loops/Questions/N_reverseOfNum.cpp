@@ -49,7 +49,7 @@ For exapmle
 
 */
 
-// Have to go through once again
+// long mthd
 int main()
 {
     int n ;

@@ -23,7 +23,9 @@ Why are Fn important in c++ ?
 2. Return Type
 3. Parameters
 This will allow to make fn with same name but different types or numbers of parameters
-4. Formal and Actual Parameter
+4. Formal Parameter - passed by funtion is created/defination
+ and 
+Actual Parameter  - passed when we are calling fn
 5. Function Body 
 
 
@@ -68,6 +70,10 @@ int main(){
 }
 
 
+
+ 
+
+
 # Pass By Value
 Parameter values are copied to another variables
 
@@ -81,6 +87,7 @@ int main(){
 }
 
 // The output of this code in 5
+It is not printing 100 bcz here copies are created so both a and z are different
 
 # Pass By reference 
 Parameter values are passed itself
@@ -88,7 +95,7 @@ Using Ampersand Operator
 
 
 int p = 5;
-int &q =5; 
+int &q =p; 
 //Both variable refer to same memeory location.
 & - operator create alias name of a variable memory location
 ----------------------------
@@ -102,11 +109,11 @@ int main(){
 }
 
 // The output of this code in 100
+Bcz here we are creating alias for same memory location a
 
 
 
-
-# Default Parameter ValueIt is a value in the fn declaration automatically assigned by the comiler if the calling fn does not pass any value to that argument.
+# Default Parameter Value -> It is a value in the fn declaration automatically assigned by the comiler if the calling fn does not pass any value to that argument.
 
 int add(inta, int b=1, int c=2){
     return (a+b+c);
@@ -120,4 +127,3 @@ int main(){
 }
 
 
-*/

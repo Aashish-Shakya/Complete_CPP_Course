@@ -1,3 +1,8 @@
-or(int j =num-i; j>=1; j++){
-    //     cout <<".";
-    // }
+ == originalN)
+    {
+        cout << " Armstrong Number" << endl;
+    }
+    else
+    {
+        cout << "Not a armstrong Number" << endl;
+    
