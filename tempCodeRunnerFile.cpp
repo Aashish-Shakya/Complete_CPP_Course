@@ -1,8 +1,6 @@
- == originalN)
-    {
-        cout << " Armstrong Number" << endl;
+   {
+      if (cn % i == 0)
+      {
+        break;
+      }
     }
-    else
-    {
-        cout << "Not a armstrong Number" << endl;
-    

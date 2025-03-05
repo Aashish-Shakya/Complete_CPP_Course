@@ -20,6 +20,6 @@ int main() {
     // To avoid above line we have to import std as written in line 8.
     cout << greeting 
     << endl;
-    cout<< "Ajhgdsh";
+    cout<< "Aashish \n Shakya";
     return 0;
 }

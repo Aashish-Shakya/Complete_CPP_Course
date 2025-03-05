@@ -2,7 +2,7 @@
 using namespace std;
 
 /*
-Question ->Write a program to swap two numbers using.
+Question -> Write a program to swap two numbers  
 
 
 */

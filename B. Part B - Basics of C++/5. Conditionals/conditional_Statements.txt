@@ -84,4 +84,7 @@ switch (n) {
 }
 
 If we will not use break in cases then it will execute all cases one by one
+Break -> TO exit from the switch case
+Default - If no case match - Execute the default one
+ 
 */

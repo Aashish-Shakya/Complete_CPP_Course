@@ -2,15 +2,19 @@ C++ is a General Purpose object oriented Programming language created by Bjarne 
 Extension of C language
 Initially called C with Classes
 
+
 ** Case sensitive
+
 # Features
+
     * Simple
     * fast and Powerful
     * Object Oriented
     * Compiled
     * Platform Dependent - Dependent on OS
     * Rich Lib.
-    * Mid-level program. lang.
+ 
+
 
 # APPLICATIONS
     * Adobe Photoshop
@@ -30,17 +34,19 @@ Initially called C with Classes
 
 * * Every C++ Program has One and Only Main() Fuction.
 
+
 Token -> Smallest Individual program unit 
      1. Special Symbols --> Mathematical,punctuation,blank space --> +, -, %, +, ?, ;, ., <, > 
      2. Word Symbols --> Always in lowercase --> Reserved words or Keywords --> int, float, return, void,
      3. Identifiers --> Names of variables, constants and functions.
-                         Consist of Letters, digit, underscore 
-                         Must begin with letter or an underscore
-                         They are case sensitive
-                         keyword can't be used as Identifiers
+                         * Consist of Letters, digit, underscore 
+                         * Must begin with letter or an underscore
+                         * They are case sensitive
+                         * keyword can't be used as Identifiers
                      Ex-> name, Devtown, salary, hours, Ram,t_min
 
-**  Hellow world Programm
+
+**  Hello world Programm
 
 #include <iostream>
 using namspace std;
@@ -51,11 +57,15 @@ int main(){
 
 }
 
+PS C:\Complete_CPP_Course\A. PartA - Introduction> g++ helloWorld.cpp -o hello  
+PS C:\Complete_CPP_Course\A. PartA - Introduction> ./hello.exe
+
 # -> Pound sign - Every program start with this Symbols 
 ; - it ends the line
 #include ->Anything starts with # is a directive - process by pre-processor
 Tell's compiler to include ....
 
+<iostream> - header file - contains basic c++ fn such cout, cin .../ CONTAINS DECLARATION OF ALL I/O FUCNTION
 #include <iostream> --> include iostream file in this program, Here iostream is header file used for I/O
 
 namespace -> spaces to avoid conflicts

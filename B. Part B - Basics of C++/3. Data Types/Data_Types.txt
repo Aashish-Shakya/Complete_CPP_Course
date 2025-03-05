@@ -20,9 +20,16 @@ TYPES
     1. Integer
         keyword -> int
         requires 4 byte of space
-        range -> -2147483648 to 2147483647  OR -2^31 TO 2^31 -1
+      Signed  range -> -2147483648 to 2147483647  OR -2^31 TO 2^31 -1
             A. LONG --> 8 Bytes
-            B. SHORT 2 Bytes
+            B. SHORT --> 2 Bytes
+         
+    Unsigned Range - >    2^32 -1 
+
+
+# Note -> Range Concept Explained here - https://www.youtube.com/watch?v=cnT1oW5_ePM&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ&index=24
+From 4:00
+
 
     2. Character
         keyword -> char

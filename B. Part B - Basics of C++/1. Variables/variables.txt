@@ -14,6 +14,7 @@ TYPE variable_name [=value];
 # Variable Declaration - giving type and name
  
  int a;
+
  int a,b;
  
 
@@ -24,7 +25,7 @@ int a =10;
 
 
 #  RULES
-        1. Contain lteers, digits, and underscore only
+        1. Contain letters, digits, and underscore only
         2. Must begin with a ltter or underscore 
         3. Case Sensitive
         4. Can't contain whitespace or special character
@@ -57,4 +58,4 @@ Its ignored by compiler
 Multiline comment ---> /* */ 
 
 
-Identifers - Are the name o fany class, variable, methods..
+Identifers - Are the name o fancy class, variable, methods..

@@ -1,7 +1,6 @@
 /*
 In C++ all I/O operations are performed on a sequenece of bytes called Stream.
-iostream -> Libraray -> standard I/O stream and standard error stream
-fstream -> declares the service for user-controlled file processing
+
 
 INPUT - istream class
     bytes flow from device to main memeory
@@ -31,4 +30,15 @@ clog ->  buffer standard error stream - used to display errors
 
 Buffer - region in our physical memeory storage that stores data temporarily
 
+
+
+Note - To take input of a string sentence  we can't use cin as it will take input till 1st white space character
+For that we have a method known as getline()
+
+And there is one more case which is If we input Number and String together 
+
+All This case is explained in Video
+Devtown --> Core COncept of C++ -> Module 2 Basics of C++ -> Day 7
+
+o/p.cpp
 */

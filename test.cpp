@@ -1,29 +1,30 @@
-#include <iostream>
 
+#include <iostream>
 using namespace std;
+
+
+
 int main()
 {
-    int lowerLimit, upperLimit;
-    cout << "Enter lowerLimit" << endl;
-    cin >> lowerLimit;
-    cout << "Enter upperLimit" << endl;
-    cin >> upperLimit;
+  int ul = 20;
+  int cn = 3;
+  int i;
 
-    int sum = 0;
+  while (cn < ul)
+  {
+    for (i = 2; i <= cn; i++)
+    {
+      if (cn % i == 0)
+      {
+        break;
+      }
+    }
+    if (i == cn)
+    {
+      cout << cn << endl;
+    }
+    cn++;
+  }
 
-   while(lowerLimit<upperLimit){
-
-  
-        while(lowerLimit>0){
-            int lastdigit = lowerLimit% 10;
-            cout << lowerLimit<< " = last digit ->" << lastdigit << endl;
-            lowerLimit= lowerLimit/10;
-        }
-    lowerLimit = lowerLimit+1;
-         }
-        
-
-    
-
-    
+  return 0;
 }
