@@ -1,3 +1,10 @@
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+
+
 # Box Patterns - Reactangle / Square
 
 /*
@@ -281,6 +288,20 @@ Pattern |Index  | Space
 */
 
 /*
+Question 19 - Inverted Triangle or Half Pyramid Pattern With Numbers
+ 
+n = 5
+
+Pattern |Index  | Space  
+11111      0        0
+2222      1        1
+333      2        2
+44      3        3
+5      4        4
+
+*/
+
+/*
 Question 20 - Inverted Triangle or Half Pyramid Pattern With Charcters
  
 n = 5
@@ -312,6 +333,40 @@ n=5
 
 # Pyramid Patterns
 
+
+/*
+Question 21 -  Pyramid Pattern With Numbers
+ 
+
+n = 4
+             i
+Pattern     |Index  | Space
+   1          0        3
+  2 2         1        2
+ 3 3 3      2        1
+4 4 4 4       3        0
+
+
+*/
+
+
+/*
+ pattern
+
+n=5
+
+    1
+   1 2
+  1 2 3
+ 1 2 3 4
+1 2 3 4 5
+
+
+rows - 1 to n
+ space -> n-i
+ star -> n
+
+*/
 /*
 Question 21 -  Pyramid Pattern With Numbers
  
@@ -359,6 +414,23 @@ No of stars - 1 3 5 7 . . .
 */
 
 
+/*
+Question 21 -  Plandromic
+
+n = 5
+             i
+Pattern     |Index  | Space
+    1          1        4
+   212         2        3
+  32123        3        2
+ 4321234       4        1
+ 543212345     5        0
+
+
+*/
+
+
+
 
 # Diamond Patterns
 
@@ -404,10 +476,42 @@ n = 4
    *                   1         3           1
   * *                  2         2           3
  *   *                 3         1           5
-*     *                4         0           7               
+*     *                4         
+*     *          
  *   *                 3         1           5
   * *                  2         2           3
    *                   1         3           1
+
+Relationship
+
+
+Upper  -> 1 to n
+Spaces -> n-i
+Stars  ->  2*i -1
+
+Lower  -> n to 1
+Spaces -> n - i
+Stars  ->  2*i - 1
+
+
+*/
+
+/*
+
+Question -  Hollow DIAMOND PATTERN inscribed in a rectangle
+
+
+
+        *********
+        **** ****
+        ***   ***
+        **     **
+        *       *
+        *       *
+        **     **
+        ***   ***
+        **** ****
+        *********
 
 Relationship
 
@@ -477,25 +581,127 @@ rows - 1 to n
 */
 
 
-/**/
-/**/
-/**/
-
 
 /*
- 0-1 pattern
 
-n=5
+// Difficult one dekhe kiya
+/*
+Question -  ZIG ZAG PATTERN
 
-    1
-   1 2
-  1 2 3
- 1 2 3 4
-1 2 3 4 5
+        |
+        |
+        |
+        |  *   *
+        | * * * *
+        |*   *   *
+        |________________________________-
 
 
-rows - 1 to n
- space -> n-i
- star -> n
+
+
 
 */
+
+
+## Pending Patterns
+<!--  
+
+1. Pascal's triangle
+    1
+   1 1
+  1 2 1
+ 1 3 3 1
+1 4 6 4 1
+
+
+2. Diamond INscribed in Rectangle
+        *********
+        **** ****
+        ***   ***
+        **     **
+        *       *
+        *       *
+        **     **
+        ***   ***
+        **** ****
+        *********
+
+
+3. hollow rohmbus
+4. hollow butterfly
+5. Diamond 
+6. Hollow Diamond
+
+7. Problem 3 : Given height h and width w, print a rectangular pattern as shown in the example below.
+Example: h=4,w=6
+*.*.*.
+.*.*.*
+*.*.*.
+.*.*.*
+
+
+8. Problem 2 Given n, print a triangular pattern as shown in the example below.
+Example if n=4
+   1
+  2 2
+ 3   3
+4     4
+
+
+
+
+9. Write a program to print the cross pattern given below (in the shape of X): (Medium)
+ *   *
+  * *
+   *
+  * *
+ *   *
+
+
+Q10.  Write a program to print alphabet diamond pattern:
+ 
+    A
+   ABC
+  ABCDE
+ ABCDEFG
+ABCDEFGHI
+ ABCDEFG
+  ABCDE
+   ABC
+    A
+ 
+Assignment Questions
+
+ 
+Q11- Write a program to print + pattern given below : (Medium)
+  *
+  *
+*****
+  *
+  *
+
+Q12 - Write a C++ program to print a triangle of prime numbers upto given number of lines of the triangle.
+
+n=6
+       2
+      3 5
+    7 11 13
+  17 19 23 29
+ 31 37 41 43 47
+53 59 61 67 71 73
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -->
+

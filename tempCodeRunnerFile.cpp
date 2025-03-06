@@ -1,6 +1,7 @@
-   {
-      if (cn % i == 0)
-      {
-        break;
-      }
+for (int j = 1; j <= n - i; j++)
+    {
+
+      cout << " ";
     }
+
+    cout << "*";

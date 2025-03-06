@@ -2,28 +2,38 @@
 #include <iostream>
 using namespace std;
 
+/*
+
+// Difficult one dekhe kiya
+/*
+Question -  SZIG ZAG PATTERN
 
 
+*/
 int main()
 {
-  int ul = 20;
-  int cn = 3;
+  int n = 9;
   int i;
 
-  while (cn < ul)
+  for (i = 1; i <= 3; i++)
   {
-    for (i = 2; i <= cn; i++)
+
+    for (int j = 1; j <= n; j++)
     {
-      if (cn % i == 0)
+
+      if ((i + j) % 4 == 0 || (i == 2 && j % 4 == 0))
       {
-        break;
+
+        cout << "*";
+      }
+      else
+      {
+
+        cout << " ";
       }
     }
-    if (i == cn)
-    {
-      cout << cn << endl;
-    }
-    cn++;
+
+    cout << endl;
   }
 
   return 0;

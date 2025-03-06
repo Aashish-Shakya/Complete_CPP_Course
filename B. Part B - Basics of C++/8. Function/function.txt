@@ -1,7 +1,9 @@
+INp >>>>   BOX   -->  O/p [type]
+
 /*
 Function --> Are block of code that are designed to perform a specific task.
 * Is to promote modularity and Reusability of code
-input - Parameters
+
 
 SYNTAX ->
 
@@ -20,13 +22,22 @@ Why are Fn important in c++ ?
 
 # Keywords
 1. Function names
+
 2. Return Type
+
+The return value is store in the function after the execution of the code present in it
+
 3. Parameters
+
+
 This will allow to make fn with same name but different types or numbers of parameters
+
+
 4. Formal Parameter - passed by funtion is created/defination
- and 
-Actual Parameter  - passed when we are calling fn
-5. Function Body 
+
+5. Actual Parameter  - passed when we are calling fn
+
+6. Function Body 
 
 
 Types of Fn
