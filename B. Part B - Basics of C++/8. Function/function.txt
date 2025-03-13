@@ -35,9 +35,25 @@ This will allow to make fn with same name but different types or numbers of para
 
 4. Formal Parameter - passed by funtion is created/defination
 
-5. Actual Parameter  - passed when we are calling fn
+-- Parameter allows as to create multiple function with same name but differnet number of parameter
+
+5. Actual Parameter/ Arguments  - passed when we are calling fn
 
 6. Function Body 
+
+
+Default Parameter Value - It auto assign value if nothing is passed while calling
+ex -
+int add( int a= 0, int b = 0); --> Prototype
+
+Function in Memory
+
+According to c++ we have two types of memory 
+1. Stack - Static allocation
+2. Heap - Dynmic allocation
+
+All function are stored as Stack in memory in form of stack frame
+
 
 
 Types of Fn
@@ -76,6 +92,7 @@ If we want to define a function after the function call, We need to use the  fn 
 
 ex -
 type add(paramemeter 1, ...); --> Prototype
+
 int main(){
     defination of add fn
 }
@@ -87,6 +104,7 @@ int main(){
 
 # Pass By Value
 Parameter values are copied to another variables
+* Primitive Data types are always passsed as pass by value
 
 voide changeValue(int z){
     z=100; // Formal Parameetr
@@ -100,7 +118,7 @@ int main(){
 // The output of this code in 5
 It is not printing 100 bcz here copies are created so both a and z are different
 
-# Pass By reference 
+# Pass By reference  - we learn this later in pointer chapter
 Parameter values are passed itself
 Using Ampersand Operator
 
