@@ -1,5 +1,5 @@
-
 /*
+
 # Function 
 
 --> Are block of code that are designed to perform a specific task. 
@@ -21,8 +21,10 @@ INp >>>>   BOX   -->  O/p [type]
 returnType functionName(dataType parameter1, datatype parameter2, ....){
     // function body
 
-    return value;
+    return value;  
 }
+
+ 
 
 
 

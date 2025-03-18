@@ -1,24 +1,17 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
-int fibonacci(int n)
+void twice(int p)
 {
-    int a = 0, b = 1;
-    cout << a << " " << b << " "; // Print first two numbers
-
-    for (int i = 2; i < n; i++)  // Loop runs n-2 times
-    {
-        int sum = a + b;
-        cout << sum << " ";  
-        a = b;
-        b = sum;
-    }
-    return 24;
+    p = p * 2;
 }
 
 int main()
 {
-    int n = 8;  // Number of terms
-    cout << fibonacci(n);
+    int p = 24;
+   // cout << twice(p) << endl;
+     
     return 0;
 }
+// pass by value

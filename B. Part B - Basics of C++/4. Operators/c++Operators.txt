@@ -108,17 +108,20 @@ Examples -->
 Not able to understand this properly have to learn it more deeply
 4. BITWISE OPERATOR -> same as logical operator but it works on individual bits
 -> An image is attached for its explanation
-
+ 
     &  ->  AND
     |  -> OR
-    ^  -> XOR
+    ^  -> XOR - same - > 0 , Diff -> 1
     ~  -> negation
     << -> left shift --> Shift all bits to left
+    a << b --> a*2^b
+    >> -> Right shift --> Shift all bits to Right
+    a << b --> a/2^b
 
     If we do left shift by 1 bit then number get muktipled by 2 and if by 2 bit then it multiply by 2^ 2
     4 << --> 8
-    0010 << 1 --> 0100 
-
+    0010 << 1 --> 00100 
+    ----          -----
     0010 << 2 --> 
     4 << --> 16
 
