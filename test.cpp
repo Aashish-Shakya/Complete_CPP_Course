@@ -2,16 +2,33 @@
 #include <cmath>
 using namespace std;
 
-void twice(int p)
-{
-    p = p * 2;
-}
+/*
 
+Q12 - Armastrong
+
+
+*/
 int main()
 {
-    int p = 24;
-   // cout << twice(p) << endl;
-     
+    int n = 1634;
+    float sum = 0;    
+    float original = n;
+ 
+
+    while (n > 0)
+    {
+        int lastdigit = n % 10;   
+        sum += pow(lastdigit, 3);          
+        n = n / 10;  
+    }
+ 
+
+    if( sum == original){
+
+        cout << sum << " is a sumtrong";
+    }else{
+        cout << sum << " is  not ";
+    }
+ 
     return 0;
 }
-// pass by value

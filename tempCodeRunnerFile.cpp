@@ -1,4 +1,1 @@
-
-int sum(int &z , int y)
-{
-    z = 50;
+    cout << arms;

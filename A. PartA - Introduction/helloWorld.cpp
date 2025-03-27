@@ -1,25 +1,17 @@
-/*
-DOCUMENTION ABOUT THE PROGRAM/FILE
-*/
-#include <iostream>  
-#define VAR 10
+#include <iostream>
 using namespace std;
-
-
 //  The Program Starts
 
+int main()
+{
 
+    // Variable declaration
+    cout << "Hello World";
 
-int main() {
+// If didn't use using namespace std; then
+    // std::cout << "Hello World"  ;
+// To avoid above line we have to import std as written in line 8.
 
-    //Variable declaration
-    string greeting = "Welcome to Coding Classes";
-
-    // Block of Statement
-    // std::cout << greeting << endl;
-    // To avoid above line we have to import std as written in line 8.
-    cout << greeting 
-    << endl;
-    cout<< "Aashish \n Shakya";
+    // cout << "Aashish \n Shakya";
     return 0;
 }

@@ -33,3 +33,15 @@ n = 5
 11. Given the age of a person, write a function to check if the person is eligible to vote or not.
 12. Given two numbers a and b, write a program using functions to print all the odd numbers
 between them.
+
+13. Check Pythagoras Triplet
+
+14. Conversions
+- Binary to Decimal
+-  Decimal to Binary
+- Octal to Decimal
+- Hexadecimal to Decimal
+- Decimal  to Octal
+-  Decimal  to Hexadecimal
+
+15. Add two binary numbers

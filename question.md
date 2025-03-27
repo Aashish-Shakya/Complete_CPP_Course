@@ -49,6 +49,11 @@
 2. Print a hollow Rectangle
 
 
+
+
+
+# Loops
+
 <!-- In Doubt  -->
 Diamond Pattern
 Hallow Diamond Patter
