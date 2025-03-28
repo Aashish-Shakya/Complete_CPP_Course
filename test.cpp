@@ -1,34 +1,29 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 /*
-
-Q12 - Armastrong
-
+Question -> Write a program to count all the digits of a number
 
 */
+
 int main()
 {
-    int n = 1634;
-    float sum = 0;    
-    float original = n;
+    int num,rem,n;
+    cout << "Enter number" << endl;
+    cin >> num;
+int count = 0;
+int sum =0;
  
-
-    while (n > 0)
-    {
-        int lastdigit = n % 10;   
-        sum += pow(lastdigit, 3);          
-        n = n / 10;  
+    while(num>0){
+        count = num%10;
+        sum = sum + count;
+        num = num/10;
+        
+        
+    
     }
+        
+        
  
-
-    if( sum == original){
-
-        cout << sum << " is a sumtrong";
-    }else{
-        cout << sum << " is  not ";
-    }
- 
-    return 0;
+    cout << sum;
 }

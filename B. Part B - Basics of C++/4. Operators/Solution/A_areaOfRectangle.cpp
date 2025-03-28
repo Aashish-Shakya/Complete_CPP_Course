@@ -2,9 +2,7 @@
 using namespace std;
 
 /*
-Question ->Write a program to print Area of a rectangle
-
-
+Question -> Write a program to print Area of a rectangle
 */
 int main(){
     

@@ -7,6 +7,7 @@ int main() {
 
 // *** int y = 1,2,3;
 // so finally the value of y is 3 the last one
+
 // Types of Operators
 
 /*
@@ -209,26 +210,7 @@ int num2 = 8; --> 1000
     b = *ptr;
      cout << b << endl;
 
-
-     
-    
 */
     
 
-
-
-/*
-<< - Insertion operator - cout
- It inserts data into the output stream (cout), which means it sends the data to the console (screen)
-
- >> - extraction operator - cin
- It extracts data from an input stream (like cin) and stores it into a variable.
-
-*/
-// \n -> endl
-
-
-
-
-//Operator Precedance Chart -- BODMAS
 }
