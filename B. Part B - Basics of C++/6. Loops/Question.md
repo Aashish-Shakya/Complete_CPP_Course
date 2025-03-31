@@ -2,14 +2,14 @@
 #### **🟢 Beginner (Easy)**
 1. Print numbers till **n**  
 2. Print table of 7  
-3. Print numbers till **100** and skip multiples of 3  
+3. Print numbers till **n** and skip multiples of 3  
 4. Print even/odd numbers till **n**  
 5. Take input from the user untill they give any negative input and find the sum  
-6. Print numbers till **n** which are divisible by 3  
+6. Print the first multiple of 5 which is also a multiple of 7
 7. Sum of numbers from **1 to n**  
-8. Sum of all odd/even numbers from **1 to n**  
-9. Sum of all numbers from **1 to n** divisible by 3  
-10. Print the first multiple of 5 which is also a multiple of 7  
+8. Sum of all numbers from **1 to n** divisible by 3  
+9. Sum of all odd/even numbers from **1 to n**  
+<!-- 10.   Have tostructure from here -->
 11. Write a program to print the **ASCII value** of any given character  
 12. Find the sum of digits in a given number **n**  
 13. Print digits in the given number **n**  

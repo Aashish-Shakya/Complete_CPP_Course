@@ -8,15 +8,13 @@ using namespace std;
 int main()
 {
     int n = 100;
-    int sum  = 0;
- 
-    for (int i = 1; i < n; i++)
+
+    for (int i = 6; i < n; i++)
     {
-        if (i % 3 == 0)
+        if (i % 5 == 0 && i % 7 == 0)
         {
-            sum  += i;
+            cout << i << endl;
+            break;
         }
- 
-    cout << "  sum " << sum << endl;
- 
+    }
 }

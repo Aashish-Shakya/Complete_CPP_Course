@@ -2,7 +2,7 @@
 using namespace std;
 
 /*
-6. Print the first multiple of 5 which is also a multiple of 7
+8. Sum of all numbers from **1 to n** divisible by 3  
 */
 
 int main()
@@ -19,4 +19,5 @@ int main()
  
     cout << "  sum " << sum << endl;
  
+}
 }

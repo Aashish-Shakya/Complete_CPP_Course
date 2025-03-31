@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 
-//Program to check is a number is even or odd using if/else 
+//Question 3 - Program to check is a number is even or odd using if/else 
+
 int main(){
 
     int num;

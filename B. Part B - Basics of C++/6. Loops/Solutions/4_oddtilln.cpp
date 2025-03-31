@@ -2,7 +2,7 @@
 using namespace std;
 
 /*
-Question -> Write a program to print all Odd number till n
+Question -> Write a program to print all Odd/even number till n
 
 */
 
@@ -14,6 +14,7 @@ int main()
 
     for (int i = 1; i <= num; i++)
     {
+        // if (i % 2 != 0)
         if (i % 2 == 0)
         {
             continue;

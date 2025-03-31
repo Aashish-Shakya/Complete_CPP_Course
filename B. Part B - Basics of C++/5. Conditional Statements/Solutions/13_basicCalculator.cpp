@@ -9,7 +9,7 @@ Question -> Write a program to create a basic calculator
 // Have to this update for case 5 if user enter 5 then directly exit no need to enter numbers
 int main()
 {
-    /*
+    
     int choice;
     float num1, num2;
   
@@ -50,7 +50,7 @@ int main()
     }
 
     // Given Solution
-
+/* 
     char choice;
     int num1,num2;
     cout << "Enter two numbers" << endl;

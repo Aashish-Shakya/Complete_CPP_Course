@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+/*
+
+9. Sum of all odd/even numbers from **1 to n**  
+*/
+
+int main()
+{
+    int n = 100;
+    int sumOdd = 0;
+    int sumEven = 0;
+
+    for (int i = 1; i < n; i++)
+    {
+        if (i % 2 == 0)
+        {
+            sumEven += i;
+        }
+        else
+        {
+            sumOdd += i;
+        }
+    }
+    cout << "Even sum " << sumEven << endl;
+    cout << "Odd sum " << sumOdd << endl;
+}
