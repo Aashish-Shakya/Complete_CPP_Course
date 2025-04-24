@@ -1,22 +1,28 @@
+
 #include <iostream>
 using namespace std;
 
-/*
-6. Print the first multiple of 5 which is also a multiple of 7
-*/
+void reverseArr(int arr[], int size)
+{
 
+    int start = 0, end = size - 1;
+    while (start < end)
+    {
+        swap(arr[start], arr[end]);
+        start++;
+        end--;
+    }
+}
 int main()
 {
-    int n = 100;
-    int sum  = 0;
- 
-    for (int i = 1; i < n; i++)
+    int arr[] = {1, 2, 3, 4, 5};
+    int size = 5;
+    reverseArr(arr, size);
+
+    for (int i = 0; i < size; i++)
     {
-        if (i % 3 == 0)
-        {
-            sum  += i;
-        }
- 
-    cout << "  sum " << sum << endl;
- 
+        cout << arr[i] << " ";
+    }
+
+    return 0;
 }
