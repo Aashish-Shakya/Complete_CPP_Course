@@ -1,28 +1,16 @@
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
-void reverseArr(int arr[], int size)
-{
-
-    int start = 0, end = size - 1;
-    while (start < end)
-    {
-        swap(arr[start], arr[end]);
-        start++;
-        end--;
-    }
-}
 int main()
 {
-    int arr[] = {1, 2, 3, 4, 5};
-    int size = 5;
-    reverseArr(arr, size);
 
-    for (int i = 0; i < size; i++)
+    vector<int> myVector = {1, 2, 3};
+
+    for (int val : myVector)
     {
-        cout << arr[i] << " ";
+        cout << val << " ";
     }
-
     return 0;
 }
