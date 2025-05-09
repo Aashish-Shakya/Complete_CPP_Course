@@ -65,8 +65,7 @@ for(int i:arr){
 3. While loop
  */
 
--- Largest Possible Value for any Integer Number = +infinity = INT_MAX
--- Smallest Possible Value for any Integer Number = -infinity = INT_MIN
+
 
 
 # Pass by reference
@@ -104,7 +103,8 @@ int main()
 
 ```
 
-
+-- Largest Possible Value for any Integer Number = +infinity = INT_MAX
+-- Smallest Possible Value for any Integer Number = -infinity = INT_MIN
 
 # Searchig Algorithm
 
@@ -198,6 +198,8 @@ int main()
 
 /*
 Home wprk 
+WAF to find Min and Max in an array
+WAF to do linear seach in an array
 
 WAF to calculate sum & product of all number in an array
 

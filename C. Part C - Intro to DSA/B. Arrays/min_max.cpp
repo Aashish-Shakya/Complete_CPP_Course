@@ -8,12 +8,7 @@ array - maximim minimum and tgeir indexes
 
 int main()
 {
-    int arr[] = {
-        10,
-        13,
-        3,
-        -46,
-        56,
+    int arr[] = {10, 13, 3, -46, 56,
     };
     int size = 5;
     int index;
@@ -27,7 +22,15 @@ int main()
             smallest = arr[i];
             index = i;
         }
-        max(arr[i], largest);
+        if (largest < arr[i])
+        {
+            largest = arr[i];
+            index = i;
+        }
+
+        // OR
+        //smallest =  min(arr[i], smallest);
+        // largest = max(arr[i], largest);
     }
     cout << "  Smallest Number index " << index << endl;
 }
