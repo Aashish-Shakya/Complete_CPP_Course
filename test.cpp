@@ -1,34 +1,43 @@
-
 #include <iostream>
 #include <vector>
 #include <climits>
 using namespace std;
 
-/*
-Home wprk
 
-WAF to calculate sum & product of all number in an array
-
-WAF to swap min and max number of an array
-
-WAF to print all unique values in array - confusing
-
-WAF to print intersection of 2 array
-
-*/
 
 int main()
 {
-    int arr1[] = {1, 2, 3, 4};
-    int arr2[] = {5, 6, 7, 8};
-    int size = 4;
 
+    int size;
+    cout << "Enter size of array ";
+    cin >> size;
+    int arr[size];
+    cout << "Enter element of  array ";
     for (int i = 0; i < size; i++)
     {
-        for (int j = 0; j < size; j++)
+        cin >> arr[i];
+    }
+    // int size = sizeof(arr) / sizeof(arr[0]);
+
+    for (int i = 0; i < size - 1; i++)
+    {
+        int minIndex = i;
+        for (int j = i + 1; j < size; j++)
         {
-            cout << arr1[i] << "," << arr2[j] << endl;
+            if (arr[j] < arr[minIndex])
+            {
+                minIndex = j;
+            }
         }
+
+        if (minIndex != i)
+        {
+            swap(arr[i], arr[minIndex]);
+        }
+    }
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << endl;
     }
 
     return 0;
