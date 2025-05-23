@@ -3,7 +3,7 @@
 using namespace std;
 
 /*
-array - maximim minimum and tgeir indexes
+array - maximim minimum and their indexes
 */
 
 int main()

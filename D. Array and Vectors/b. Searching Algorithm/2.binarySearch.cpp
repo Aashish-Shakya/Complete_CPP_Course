@@ -1,6 +1,19 @@
 #include <iostream>
 using namespace std;
-// For binary search the elemnts shsould be in asscending order
+
+/*
+// For binary search the elemnts should be in asscending order
+Sorted array -> continusoly divides into 2
+
+- Compare x with the middle element
+- If x matches with the middle element, we retunr the mid index
+
+Else if X is greater then the mod elemenet then x can only lie in the right half subarray after the mid eleement, SO we recur for the right half
+
+Else x is smaller recur for lefft half
+*/
+
+
 int binarySearch(int arr[], int size, int key)
 {
     int s = 0;

@@ -1,35 +1,22 @@
+# QUestions
 
-#include <iostream>
-#include <vector>
-#include <climits>
-using namespace std;
+1. WAF to calculate sum & product of all number in an array
+2. WAF to print intersection of 2 array
+3. WAF to find min and max number of an array
+4. WAF to print all unique values in array
+5. Find all possible subaaray
+6. Maximun Subarray Sum
+7. Kadane's ALgorithm
+8. Max till i
+Given an array a[] of size n, For every i from o to n-1 output max(a[0], a[1], . . . , a[i])
 
-/*
-Home wprk
+9. Sum of all SubArrays
+Given an array a[] of size n, Output sum of each subarray of the given array
+ 
 
-WAF to calculate sum & product of all number in an array
 
-WAF to swap min and max number of an array
+Reverse of an array
 
-WAF to print all unique values in array - confusing
-
-WAF to print intersection of 2 array
-
-*/
-
-int main()
-{
-    int arr1[] = {1, 2, 3, 4};
-    int arr2[] = {5, 6, 7, 8};
-    int size = 4;
-
-    for (int i = 0; i < size; i++)
-    {
-        for (int j = 0; j < size; j++)
-        {
-            cout << arr1[i] << "," << arr2[j] << endl;
-        }
-    }
-
-    return 0;
-}
+Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+ 
+ 
