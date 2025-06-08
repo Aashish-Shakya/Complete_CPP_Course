@@ -5,6 +5,7 @@ using namespace std;
 
 /*
 Maximun Subarray Sum
+Brute Force - basic approach
 */
 
 int main()

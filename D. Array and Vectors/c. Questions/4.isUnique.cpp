@@ -42,3 +42,48 @@ int main() {
 
     return 0;
 }
+
+
+// My code 
+/*
+#include <iostream>
+#include <climits>
+#include <vector>
+using namespace std;
+
+ 
+ WAF to print all unique values in array
+ 
+
+int main()
+{
+   
+
+    int arr[] = {1, 5, 3, 4, 1};
+    int n = 5;
+    int end = n - 1;
+    int st = 0;
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            if (j == i)
+            {
+                continue;
+            }
+            if (arr[i] == arr[j])
+            {
+                break;
+            }
+
+            if (j == (n - 1))
+            {
+                cout << arr[i] << " ";
+            }
+        }
+    }
+
+   
+    return 0;
+}
+*/
