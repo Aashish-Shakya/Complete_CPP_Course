@@ -6,43 +6,26 @@
 using namespace std;
 
 /*
-Majority Element
-Best Approach - Moore's Voting Algorithm - O(n)
-
-Run a loop and check the occurence of the element starting from 0 index and whenever it found same ele then increase freq else on different elenet decrease freq
-The freq will never be less than 0 for majority element
-Thats how we found it
-
-
-Says -
-do Freq++ --> Smae ele
-Do freq-- --> Diff ele
-
+Calculate Pow(X,n)
+x^n
 */
 
 // My code
-int majorityElement(vector<int> nums)
+int power(double x, int n)
 {
-    // vector<int> ans;
-    int n = nums.size();
-
-    int ans = 0;
-    int freq = 0;
-
-    for (int i = 0; i < n; i++)
+    double ans = 1.0;
+    if (n >= 0)
     {
-        if (freq == 0)
+        for (int i = 0; i < n; i++)
         {
-            ans = nums[i];
+            ans = ans * x;
         }
-
-        if (ans == nums[i])
+    }
+    else
+    {
+        for (int i = n; i < 0; i++)
         {
-            freq++;
-        }
-        else
-        {
-            freq--;
+            ans = ans / x;
         }
     }
     return ans;
@@ -50,10 +33,10 @@ int majorityElement(vector<int> nums)
 
 int main()
 {
+    double x = 2;
+    int n = -2;
 
-    vector<int> arr = {3, 3, 3, 3, 3, 1, 2};
-
-    int ans = majorityElement(arr);
+    double ans = power(x, n);
     cout << ans;
 
     return 0;

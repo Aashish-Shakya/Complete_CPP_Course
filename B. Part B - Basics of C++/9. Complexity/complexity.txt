@@ -8,8 +8,11 @@ Complexity - Is a fn describing the efficiency of the algo in terms of the amoun
 
 1. Time Complexity -> Fn describing the amount of time an algo takes in terms of the amount of inpput to the algo.
 
+-- It it not the actual time taken but amount of time taken as function of input size(n).
 
 
+# How to calculate TC- 
+Remove constatnt and take maximum n value
 
     ## Asymptotic Analysis 
     Evaluating the performance of an algo in terms of input size.
@@ -18,17 +21,37 @@ Complexity - Is a fn describing the efficiency of the algo in terms of the amoun
     ***Asymptotic Notation
     The time required by an algo falls under threee types ->
 
-    1. Best Case -> Min. time -> Noted by  Ω - Lower Bound
-    2. Average Case -> Avg. time -> Noted by θ - Exact Bound
-    3. Worst Case -> Max time -> Noted by O - Upper Bound
+    1. Best Case -> Min. time -> Noted by  Ω(Omega) - Lower Bound
+    2. Average Case -> Avg. time -> Noted by θ(theetha) - Exact Bound
+    3. Worst Case -> Max time -> Noted by O - Upper Bound - Big O Notation
 
 
-2. Space Complexity -> Fn describing the amount of memeory[space] an algo takes in terms of the amount of inpput to the algo.
+
+--> Increasing order of TC
+O(1) < O(logn)< O(n)< O(nlogn)< O(n^2)< O(n^3)< O(2^n) < O(n!)
+
+
+# Practical Usage -
+1sec = 10^8 Operation
+Always be carefull for time constraints present in Questions
+
+n > 10^8 - O(logn), O(1)
+n <= 10^8 - O(n)
+n <= 10^6 - O(nlogn) -> Sorting ones
+n <= 10^4 - O(n^2)
+n <= 500 - O(n^3)
+n <= 25 - O(2^n)  --> Recurssion
+n <= 12 - O(n!)  --
+ 
+2. Space Complexity -> Fn describing the amount of memeory[space] an algo takes in terms of the amount of input to the algo.
+-- AMount of space tken by an algo as function of input size.
 
 
  Space Complexity = Auxiiary Space + Input space
 
+We only conside Auxilary space in Space Complexity.
+
  Memory Used by -
  1. Variables
  2. Instruction of program
- 3, Execution pf program
+ 3. Execution pf program
