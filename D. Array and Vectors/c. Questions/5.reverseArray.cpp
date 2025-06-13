@@ -5,7 +5,7 @@ using namespace std;
 
 /*
 Reverse Of an Array
-This logic is based on Two pointer concept
+This logic is based on Two pointer concept  --> going to  track two points and then perfrom operation
 */
 
 int main()
